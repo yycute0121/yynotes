@@ -1,0 +1,44 @@
+{
+  "name": "WorkBuddy 个人物品与事务管理",
+  "short_name": "WorkBuddy",
+  "description": "本地优先的个人物品与事务管理工作台，数据只保存在本机设备。",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#EFEAE3",
+  "theme_color": "#EFEAE3",
+  "categories": ["productivity", "lifestyle", "utilities"],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "我的衣橱",
+      "url": "./index.html#/wardrobe/closet"
+    },
+    {
+      "name": "搭配画布",
+      "url": "./index.html#/wardrobe/outfits"
+    }
+  ]
+}
