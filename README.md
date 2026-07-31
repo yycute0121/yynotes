@@ -165,14 +165,14 @@ git init
 git add .
 git commit -m "feat: 四个模块与本地备份恢复"
 git branch -M main
-git remote add origin https://github.com/yycute0121/yyyycute_project2.git
+git remote add origin https://github.com/yycute0121/yynotes.git
 git push -u origin main
 ```
 
 推送后在 **Settings → Pages** 把 Source 设为 `main` 分支根目录，发布完成后访问：
 
 ```
-https://yycute0121.github.io/yyyycute_project2/
+https://yycute0121.github.io/yynotes/
 ```
 
 若作为子目录提交（如仓库下的 `workbuddy/`），地址相应加上子目录名。所有资源都用相对路径，两种方式都能正常工作。
